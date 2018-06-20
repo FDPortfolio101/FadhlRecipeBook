@@ -7,36 +7,36 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TheController {
 
-    @RequestMapping("/")
+    @RequestMapping("/Index")
     public String showFirstRoute() {
         return "Index";
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/Gallery")
     public String showSecondRoute() {
         return "Gallery";
     }
-    @RequestMapping("/toWings")
+    @RequestMapping("/Wings")
     public String showThirdRoute() {
         return "Wings";
     }
-    @RequestMapping("/toEggSauce")
+    @RequestMapping("/EggSauce")
     public String showFourthRoute() {
         return "EggSauce";
     }
-    @RequestMapping("/toInjera")
+    @RequestMapping("/Injera")
     public String showFifthRoute() {
         return "Injera";
     }
-    @RequestMapping("/toCrabCakes")
+    @RequestMapping("/CrabCakes")
     public String showSixthRoute() {
         return "CrabCake";
     }
-    @RequestMapping("/toPumpkinNoodles")
+    @RequestMapping("/PumpkinNoodles")
     public String showSeventhRoute() {
         return "PumpkinNoodles";
     }
-    @RequestMapping("/toGimbap")
+    @RequestMapping("/Gimbap")
     public String showEighthRoute() {
         return "Gimbap";
     }
