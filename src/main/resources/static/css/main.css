@@ -1,0 +1,32 @@
+body{
+    background-image:url("../image/Recipes.jpg");
+    background-size: cover;
+}
+.background{
+    opacity: 0.8;
+    margin-top:18%;
+    padding: 30px 0;
+}
+
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+button{
+    font-family: 'Tajawal', sans-serif;
+    cursor: pointer;
+}
+
+button a{
+    color: #000;
+}
+button a:hover{
+    text-decoration: none;
+    color: #54cfff;
+}
+
+button a:visited{
+    color: #35ddff;
+}
